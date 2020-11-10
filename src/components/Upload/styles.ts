@@ -25,6 +25,10 @@ export const DropContainer = styled.div.attrs({
 
   transition: height 0.2s ease;
 
+  &:hover {
+    background: #f5f5f5;
+  }
+
   ${(props: UploadProps): false | FlattenSimpleInterpolation =>
     props.isDragActive && dragActive}
 

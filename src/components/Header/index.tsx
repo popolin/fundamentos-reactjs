@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link, useRouteMatch, RouteProps } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import { Container } from './styles';
 

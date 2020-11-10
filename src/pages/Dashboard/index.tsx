@@ -29,8 +29,7 @@ interface Balance {
   total: string;
 }
 
-const Dashboard: React.FC = props => {
-  console.log(props);
+const Dashboard: React.FC = () => {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
   const [balance, setBalance] = useState<Balance>({} as Balance);
 
